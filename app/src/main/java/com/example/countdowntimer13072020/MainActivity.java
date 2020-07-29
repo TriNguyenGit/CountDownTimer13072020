@@ -26,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.d("BBB","onFinish");
             }
         };
+        countDownTimer.start();
     }
 }
