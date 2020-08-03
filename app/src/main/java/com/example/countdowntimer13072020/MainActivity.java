@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
             R.drawable.hinh5
     };
     int mCount = 0;
+    final CountDownTimer countDownTimer = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFinish() {
                 this.start();
+                //countDownTimer.start();
             }
         };
         countDownTimer.start();
